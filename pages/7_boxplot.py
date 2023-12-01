@@ -74,6 +74,6 @@ plotly.code(code)
 df = pd.DataFrame(dados).T
 
 # Criando o boxplot com Plotly Express
-fig = px.box(df.T, title='Diagrama de Caixa - Plotly no Streamlit')
+fig = px.box(df, title='Diagrama de Caixa - Plotly no Streamlit')
 
 plotly.plotly_chart(fig)
